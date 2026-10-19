@@ -3,7 +3,7 @@ import TabelProduk from "@/components/TabelProduk";
 import Tombol from "@/components/Tombol";
 import { produkContoh } from "@/lib/data-contoh";
 import { pastikanAdmin } from "@/app/admin/actions";
-
+export const dynamic = "force-dynamic";
 export default async function HalamanAdmin() {
   await pastikanAdmin();
 

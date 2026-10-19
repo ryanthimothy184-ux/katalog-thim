@@ -3,6 +3,7 @@ import NavAdmin from "@/components/NavAdmin";
 import FormProduk from "@/components/FormProduk";
 import CatatanBelumAktif from "@/components/CatatanBelumAktif";
 import { cariProdukContoh } from "@/lib/data-contoh";
+export const dynamic = "force-dynamic";
 
 // US-09 (bonus di jalur offline): ubah produk.
 export default async function HalamanUbahProduk({ params }) {
